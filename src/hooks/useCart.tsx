@@ -36,6 +36,7 @@ export function CartProvider({ children }: CartProviderProps): JSX.Element {
 
   useEffect(() => {
     prevCartRef.current = cart;
+
   })
   const cartPreviousValue = prevCartRef.current ?? cart;
 
